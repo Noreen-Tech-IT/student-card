@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #e9bce1;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#studentcard{
+    height: 500px auto;
+    width: 400px;
+    background-color: rgba(223, 61, 150, 0.479);
+    text-align: center;
+    padding: 30px;
+    margin:50px auto;
+    border: 5px solid white;
+    box-shadow: 5px 5px 10px rgb(219, 119, 219);
+    border-radius: 20px;
+
+}
+.card{
+    background-color: rgba(211, 109, 165, 0.479);
+    box-shadow: 5px 5px 10px pink;
+    border-radius: 5px;
+    border:5px solid white;
+    width: auto;
+    font-size: 20px;
+    padding: 5px;
+    margin: 5px;
+}
+.card:hover{
+    background-color: purple;
+}
+
+img{
+    border: 5px solid white;
+    box-shadow: 5px 5px 10px rgb(219, 119, 219);
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+img:hover{
+    opacity: 0.8;
+    transform: scale(1.02);
+}
+
+button{
+    display: inline-block;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover{
+    opacity: 0.5;
+    transform: scale(1.03);
+}
